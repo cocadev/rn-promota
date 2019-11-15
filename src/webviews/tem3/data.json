@@ -1,0 +1,34 @@
+{
+    "colors": [
+        "#000", 
+        "#4a148c",
+        "#03a9f4", 
+        "#607d8b"
+    ],
+    "texts":  [
+        "Desert Software Company", 
+        "Australia", 
+        "CopyRight@2019", 
+        "Zepers. Nick", 
+        "Graphic Designer", 
+        "John. Smith.", 
+        "CEO", 
+        "Rouge. Night.", 
+        "CTO", 
+        "Poy. Jane.", 
+        "Bitcoin Expert", 
+        "Gamie. Zend.", 
+        "Software Manager", 
+        "Ruy. Mark.", 
+        "FullStack developer"
+    ],
+    "images": [ 
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimMWH4OLIN9Db1qnrswxuG8qOkTy5W8D6xlcck7p7NnNvKPfx",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn_rR45lEd8Ywq4WHdONVwnUAWIwskq2D3kstmtgkEat5Q78us",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4tJeskN7VcaMg7oa4C1bGZIAePRIkTdjCOoB10TD59EONoZxa",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjpfDtIzx2cJwAUL9vU9U3rkKsZVnRulsLPKPhoZI8uHzfXtks",
+        "https://paddyk.files.wordpress.com/2012/08/hipster-beard.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2H44QprLZrwQnC_SWrJ25uSmrjU3JMB8PTI8LxmmzM0zimK6f"
+
+    ]
+}

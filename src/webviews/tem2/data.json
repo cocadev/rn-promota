@@ -1,0 +1,14 @@
+{
+    "colors": [
+        "#3f51b5", 
+        "#ffc107"
+    ],
+    "texts":  [
+        "John Finnegan", 
+        "I am an adventurer", 
+        "React-Native developer"
+    ],
+    "images": [ 
+        "https://cdn.pixabay.com/photo/2016/03/26/20/35/young-man-1281282__340.jpg"
+    ]
+}
