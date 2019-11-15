@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import { p } from '../config/normalize';
 import { screenWidth, TEMPLATES } from '../config/static';
@@ -23,7 +23,7 @@ export default class SelectTemplate extends Component {
         return (
             <View style={styles.container}>
 
-                <Header text={'SELECT A TEMPLATE'} back/>
+                <Header text={'SELECT A TEMPLATE'} back />
 
                 <ScrollView showsHorizontalScrollIndicator={false} showsVerticalScrollIndicator={false}>
                     {
@@ -31,10 +31,10 @@ export default class SelectTemplate extends Component {
                             <TouchableOpacity
                                 key={index}
                                 style={styles.card}
-                                onPress={() => Actions.create_design({ 
+                                onPress={() => Actions.create_design({
                                     templateId: item,
-                                    json: UtilService.FilterJson(item), 
-                                    html: UtilService.FilterTemplate(item) 
+                                    json: UtilService.FilterJson(item),
+                                    html: UtilService.FilterTemplate(item)
                                 })}
                             >
                                 <WebView
