@@ -8,7 +8,7 @@ import SelectTemplate from './screens/SelectTemplate';
 import CreateDesign from './screens/CreateDesign';
 import Home from './screens/home';
 import { screenWidth, screenHeight } from './config/static';
-import { getStatusBarHeight, ifIphoneX } from 'react-native-iphone-x-helper'
+import { ifIphoneX } from 'react-native-iphone-x-helper'
 
 const MyStatusBar = ({ backgroundColor, ...props }) => (
     <View style={[styles.statusBar, { backgroundColor }]}>
