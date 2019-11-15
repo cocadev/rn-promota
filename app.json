@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "promota-25",
-    "slug": "promota-25",
+    "name": "promota",
+    "slug": "promota",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
@@ -9,7 +9,7 @@
       "android",
       "web"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
