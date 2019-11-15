@@ -51,16 +51,16 @@ export default class CreateDesign extends React.Component {
     try {
       var myCards = []
       const value = await AsyncStorage.getItem('mycards');
-      if(value){
+      if (value) {
         myCards = JSON.parse(value);
       }
-      if(cardId){
-        var currentCard = myCards.find(o=>o.id == cardId)
+      if (cardId) {
+        var currentCard = myCards.find(o => o.id == cardId)
         Object.assign(currentCard, jsonData)
       } else {
         jsonData.id = "card" + Date.now()
         myCards.push(jsonData)
-      }   
+      }
 
       await AsyncStorage.setItem('mycards', JSON.stringify(myCards));
       alert('Congratulations! Saved this in your storage.')
@@ -79,11 +79,11 @@ export default class CreateDesign extends React.Component {
     return (
       <View style={styles.container} >
 
-        <Header 
-          text={this.props.cardId ? 'EDIT DIGITAL SIGN' : 'CREATE DIGITAL SIGN'} 
-          back 
+        <Header
+          text={this.props.cardId ? 'EDIT DIGITAL SIGN' : 'CREATE DIGITAL SIGN'}
+          back
           check
-          onClick={()=>this._storeData(myJSON, this.props.cardId)}
+          onClick={() => this._storeData(myJSON, this.props.cardId)}
         />
 
         <View style={{ backgroundColor: 'red', height: p(145) }}>
@@ -95,7 +95,7 @@ export default class CreateDesign extends React.Component {
             onMessage={this.onMessage}
             ref={(webView) => this.webView = webView}
             startInLoadingState={true}
-            onLoadEnd ={(e) => this.onSendMyMsg(this.props.json)}
+            onLoadEnd={(e) => this.onSendMyMsg(this.props.json)}
 
           />
         </View>
@@ -179,7 +179,7 @@ export default class CreateDesign extends React.Component {
                   <TouchableOpacity
                     key={index}
                     onPress={() => this._pickImage(index)}
-                    style={{ flexDirection: 'row'}}
+                    style={{ flexDirection: 'row' }}
                   >
                     <Image
                       style={styles.avatar}
