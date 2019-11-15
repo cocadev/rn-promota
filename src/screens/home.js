@@ -21,15 +21,13 @@ export default class Home extends Component {
     this.webView = [];
   }
 
-  async componentDidMount(){
-      try {
-        // await AsyncStorage.removeItem('mycards')
-        const value = await AsyncStorage.getItem('mycards')
-        this.setState({ myCards: JSON.parse(value)})
-      } catch (error) {
-        // Error retrieving data
-      }
-    };
+  async componentDidMount() {
+    try {
+      const value = await AsyncStorage.getItem('mycards')
+      this.setState({ myCards: JSON.parse(value) })
+    } catch (error) {
+    }
+  };
 
   onSendMyMsg(index) {
     const { myCards } = this.state
@@ -45,34 +43,34 @@ export default class Home extends Component {
     return (
       <View style={styles.container}>
 
-        <Header text={'Welcome to My Promota!'}/>
+        <Header text={'Welcome to My Promota!'} />
 
         <ScrollView showsHorizontalScrollIndicator={false} showsVerticalScrollIndicator={false}>
-         {
-          myCards && myCards.map((item, index)=>
-           <TouchableOpacity
-            style={styles.card}
-            key={index}
-            onPress={() => Actions.create_design({ 
-              json: item, 
-              html: UtilService.FilterTemplate(item.templateId), 
-              cardId: item.id,
-              templateId: item.templateId,
-            })}
-          >
-            <WebView
-              originWhitelist={['*']}
-              style={styles.cardBox}
-              source={{ html: UtilService.FilterTemplate(item.templateId) }}
-              scrollEnabled={false}
-              startInLoadingState={true}
-              onMessage={this.onMessage}
-              onLoadEnd ={(e) => this.onSendMyMsg(index)}
-              ref={(webView) => this.webView[index] = webView}
-            />
-          </TouchableOpacity>)
-         }
-          
+          {
+            myCards && myCards.map((item, index) =>
+              <TouchableOpacity
+                style={styles.card}
+                key={index}
+                onPress={() => Actions.create_design({
+                  json: item,
+                  html: UtilService.FilterTemplate(item.templateId),
+                  cardId: item.id,
+                  templateId: item.templateId,
+                })}
+              >
+                <WebView
+                  originWhitelist={['*']}
+                  style={styles.cardBox}
+                  source={{ html: UtilService.FilterTemplate(item.templateId) }}
+                  scrollEnabled={false}
+                  startInLoadingState={true}
+                  onMessage={this.onMessage}
+                  onLoadEnd={(e) => this.onSendMyMsg(index)}
+                  ref={(webView) => this.webView[index] = webView}
+                />
+              </TouchableOpacity>)
+          }
+
           <EvilIcons
             name={'plus'}
             onPress={() => Actions.select_template()}
