@@ -154,8 +154,6 @@ Our goal is to help small businesses with a quick and easy digital signage solut
 <h1 align="center">
   <img src="https://apprecs.org/gp/images/app-icons/300/d8/host.exp.exponent.jpg" alt="Stack" height="100" width="100">
   <img src="https://ionicframework.com/docs/assets/icons/logo-react-icon.png" alt="Stack" height="100" width="100">
-  <img src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-512.png" alt="Stack" height="100" width="100">
-
   <br>
 </h1>
 
