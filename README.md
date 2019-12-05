@@ -45,7 +45,19 @@
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
-    <img width="250" style="border-radius: 5px" height="450" src="screenshots/1.jpg" alt="3">
+    <img width="250" style="border-radius: 5px" height="450" src="screenshots/3.jpg" alt="3">
+  </kbd>
+  <br/><br/>
+   <kbd>
+    <img width="250" style="border-radius: 5px" height="450" src="screenshots/4.jpg" alt="4">
+  </kbd>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <kbd>
+    <img width="250" style="border-radius: 5px" height="450" src="screenshots/5.jpg" alt="5">
+  </kbd>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <kbd>
+    <img width="250" style="border-radius: 5px" height="450" src="screenshots/6.jpg" alt="6">
   </kbd>
 </p>
 
