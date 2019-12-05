@@ -128,6 +128,9 @@ Our goal is to help small businesses with a quick and easy digital signage solut
 -   [x] Make it work on IOS
 -   [x] Make it work on Android
 -   [x] Make it work on Expo
+-   [x] Multi Text Editor
+-   [x] Multi Photo Editor
+-   [x] Webview and HTML two-direction Connection
 -   [x] Transform into responsive
 -   [x] Update to latest React Native version
 
@@ -155,8 +158,6 @@ Our goal is to help small businesses with a quick and easy digital signage solut
   <img src="https://apprecs.org/gp/images/app-icons/300/d8/host.exp.exponent.jpg" alt="Stack" height="100" width="100">
   <img src="https://ionicframework.com/docs/assets/icons/logo-react-icon.png" alt="Stack" height="100" width="100">
   <img src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-512.png" alt="Stack" height="100" width="100">
-  <img src="https://icon-library.net/images/png-map-icon/png-map-icon-26.jpg" alt="Stack" height="100" width="100">
-  <img src="https://cdn.iconscout.com/icon/free/png-512/facebook-logo-2019-1597680-1350125.png" alt="Stack" height="100" width="100">
 
   <br>
 </h1>
@@ -167,6 +168,7 @@ Our goal is to help small businesses with a quick and easy digital signage solut
 -   [Redux-Persist](https://github.com/rt2zz/redux-persist)
 -   [Eslint](https://eslint.org/)
 -   [Lottie React Native](https://github.com/react-native-community/lottie-react-native)
+-   [WebView](https://github.com/react-native-community/react-native-webview)
 
 ## :iphone: **Test**
 
