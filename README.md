@@ -1,4 +1,4 @@
-<h1 align="center"><b> Promota App </b> </h1>
+<h1 align="center"><b>React-Native Promota App </b> </h1>
 
 <h1 align="center">
   <br>
