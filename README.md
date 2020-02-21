@@ -1,14 +1,5 @@
 <h1 align="center"><b>React-Native Promota App </b> </h1>
 
-<h1 align="center">
-  <br>
-  <kbd>
-    <img src="https://image.prntscr.com/image/YrkdAm5xSxe0MmkqrvGeJA.png" alt="Animavita" height="525" width="725">
-  </kbd>
-  <br>
-  <br><br>
-</h1>
-
 <p align="center">Promota gives you access to hundreds of customizable templates. With Google Chromecast, you can display them on any TV or monitor with an HDMI port. With Fullscreen Mode, you can display them directly on your phone or iPad. If your business is online, you can share them straight to social media.</p>
 
 <p align="center"><i>"How to save a life?" - Digital Signage for Promotions</i> </p>
