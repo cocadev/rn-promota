@@ -1,4 +1,4 @@
-<h1 align="center"><b>React-Native Promota App (webview communication)</b> </h1>
+<h1 align="center"><b>React-Native Promota App (webview two-directional communication)</b> </h1>
 
 <p align="center">Promota gives you access to hundreds of customizable templates. With Google Chromecast, you can display them on any TV or monitor with an HDMI port. With Fullscreen Mode, you can display them directly on your phone or iPad. If your business is online, you can share them straight to social media.</p>
 
